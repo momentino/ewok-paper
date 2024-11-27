@@ -3,7 +3,7 @@
 set -e
 
 cd ../analyses/
-unzip -P ewok -o data.zip -d scripts/
+7z x -p"ewok" -o"scripts/" -y data.zip
 
 cd ..
 

@@ -29,7 +29,8 @@ endif
 ## setup     : decompress templates and finalize setup.
 .PHONY : setup
 setup : env config.zip
-	@$(ACTIVATE); conda install conda-forge::zip
+	@$(ACTIVATE); conda install -y conda-forge::zip
+	@$(ACTIVATE); conda install -y conda-forge::p7zip
 	@$(ACTIVATE); unzip -o config.zip -d ./
 	@echo "Setup complete."
 
