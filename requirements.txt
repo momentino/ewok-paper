@@ -17,4 +17,4 @@ pylint-json2html==0.4.0
 surprisal @ git+https://github.com/benlipkin/surprisal.git@366b074e3efb1e4d83ae8242013880c5e15851da
 torch==2.1.0
 tqdm==4.66.1
-transformers==4.40.0
+transformers==4.47.0
